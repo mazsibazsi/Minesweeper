@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box
+} 
+
+.container {
+  background-color: #ddd;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+table {
+  border: 0px solid black;
+  
+}
+
+td {
+  padding: 0px;
+}
+
+button {
+  background-color: #bbb;
+  display: table-cell;
+  margin: 0px;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  font-size: larger;
+}

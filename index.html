@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MineSweeper</title>
+  </head>
+  <body>
+    <div id="app">
+      <label for="board-size">Board size:</label>
+      <input id="board-size" type="list" list="board-sizes" value="9x9" />
+      <datalist id="board-sizes">
+          <option value="8x8" />
+          <option value="9x9" default />
+          <option value="16x16" />
+          <option value="30x16" />
+          <option value="30x24" />
+      </datalist>
+      <br>
+      <label for="mine-ratio">Percentage of mines:</label>
+      <input id="mine-ratio" type="number" value="12" min="0" max="100">
+      <input id="start-button" type="button" value="Start">
+  
+      <div id="game-area">
+  
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
